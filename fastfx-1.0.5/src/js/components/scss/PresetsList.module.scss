@@ -1,0 +1,54 @@
+.item {
+	width: 95%;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	cursor: pointer;
+
+	& i {
+		width: 6px;
+		height: 6px;
+		border-radius: 1px;
+		background-color: $text;
+	}
+
+	&:hover {
+		p {
+			color: $accent-light !important;
+		}
+	}
+
+	&.selected {
+		border-color: $el-border-dark;
+		background-color: $el-fill;
+		color: $accent-light;
+
+		p {
+			color: $accent-light !important;
+		}
+
+		& i {
+			background-color: $accent-light;
+			box-shadow: 0px 0px 5px $accent-light,
+				0px 0px 10px $accent-light,
+				0px 0px 15px $accent-light;
+			transition: all 0.2s ease-out;
+		}
+	}
+
+	&Wrapper {
+		width: 100%;
+	}
+
+	&Label {
+		white-space: wrap;
+		word-break: break-word;
+		width: 100%;
+		display: flex;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

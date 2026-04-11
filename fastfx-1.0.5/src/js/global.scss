@@ -1,0 +1,83 @@
+::selection {
+	background-color: $accent-light;
+	color: $el-fill;
+}
+
+.base {
+	width: 610px;
+	height: 457px;
+	padding: 20px;
+	margin: 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-color: $base;
+	user-select: none;
+	border: 1px solid $el-border-dark;
+	box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.2);
+}
+
+body {
+	background-color: $bg;
+}
+
+.mantine-ScrollArea-scrollbar {
+	background-color: transparent;
+	pointer-events: none;
+}
+
+.mantine-ScrollArea-thumb {
+	background-color: $text;
+}
+
+.mantine-Tooltip-tooltip,
+.mantine-Tooltip-arrow {
+	background-color: $el-fill;
+	font-size: 12px;
+	color: $text;
+	border: 1px solid $el-border-dark;
+	z-index: 10;
+}
+
+.mantine-TextInput-input {
+	background-color: $el-fill;
+	border: 1px solid $el-border-dark;
+	border-radius: 8px;
+	box-sizing: border-box;
+	line-height: 15px;
+	min-height: 30px;
+	height: 30px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: $accent-light;
+	&::placeholder {
+		color: $text;
+		opacity: 0.5;
+	}
+}
+
+.mantine-TextInput-label {
+	color: $text;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.mantine-TextInput-required {
+	color: $accent-light;
+}
+
+.mantine-Checkbox-input {
+	background-color: $el-fill;
+	border: 1px solid $el-border-dark;
+}
+
+.mantine-Checkbox-input:checked {
+	background-color: $accent-light;
+	border: none;
+}
+
+.mantine-Checkbox-label {
+	color: $text;
+	text-transform: uppercase;
+	font-size: 9px;
+	line-height: 11px;
+}

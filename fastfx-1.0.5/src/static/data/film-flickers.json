@@ -1,0 +1,98 @@
+{
+	"Film-Flicker-01": [
+		{
+			"sequenceId": "a302404c-0495-4cf0-9869-ffed7d7bb109",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-02": [
+		{
+			"sequenceId": "e7dcf914-305d-4fca-8e7c-4aed705e3d55",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-03": [
+		{
+			"sequenceId": "07dddf7a-78f1-4f50-944f-4f74c3149642",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-04": [
+		{
+			"sequenceId": "786b86b1-52ee-43d6-987f-483a0190fc8d",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-05": [
+		{
+			"sequenceId": "6a60554e-5057-4540-abe8-1b6c845d3396",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-06": [
+		{
+			"sequenceId": "8a4d2050-9eb8-4196-9b85-213d16594ac4",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-07": [
+		{
+			"sequenceId": "076b226a-e98b-45e8-9442-6c821b903071",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-08": [
+		{
+			"sequenceId": "24c49e3d-7f6e-4ec8-9367-52dbf5846533",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-09": [
+		{
+			"sequenceId": "a7f95335-75b8-41f6-8b60-18a88513b31b",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-10": [
+		{
+			"sequenceId": "bb34b593-d96e-4e2b-b816-aff6ba9a3241",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-11": [
+		{
+			"sequenceId": "50366be6-720d-4ed5-a25c-7e04138192ad",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	],
+	"Film-Flicker-12": [
+		{
+			"sequenceId": "671ae5a4-a232-4f0c-af1b-92721792111a",
+			"subcategory": "film-flickers",
+			"groupId":"0",
+			"overlays": false
+		}
+	]
+}

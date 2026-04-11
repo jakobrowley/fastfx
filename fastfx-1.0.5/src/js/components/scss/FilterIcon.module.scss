@@ -1,0 +1,13 @@
+.icon {
+	cursor: pointer;
+	padding: 3px;
+
+	&.active {
+		color: $accent-light;
+	}
+
+	&.disabled {
+		cursor: not-allowed;
+		opacity: 0.2;
+	}
+}

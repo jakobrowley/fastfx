@@ -1,0 +1,3073 @@
+{
+	"Flash-Hit-1":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.59135, 0.5],
+					[0.492635, 0.594],
+					[0.5, 0.5],
+					[0.300625, 0.5],
+					[0.53765625,0.550925]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.0416],
+				"keyValues": [100,123]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 200,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.125,0.25],
+				"keyValues": [0,90,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.125,0.25],
+				"keyValues": [0,34,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction":90,
+			"Blur Length":{
+				"keyTimes": [0,0.125,0.25],
+				"keyValues": [0,126,0]
+			}
+		}
+	],
+	"Flash-Hit-2":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083],
+				"keyValues": [0,67.3,0,28,67.3,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083],
+				"keyValues": [0,54.7,0,35,54.7,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":[0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083],
+				"keyValues": [100,126,70.8,183.6,159.7,112.9]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 200,
+			"Sampling": 0
+		}
+	],
+	"Flash-Hit-3":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.125,0.25],
+				"keyValues": [0,56,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.125,0.25],
+				"keyValues": [0,29,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction":92,
+			"Blur Length":{
+				"keyTimes": [0,0.125],
+				"keyValues": [56,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues":[[0.227,0.5],
+							 [0.619,0.57],
+							 [0.3438,0.4296],
+							 [0.6209,0.56018],
+							 [0.5,0.5],
+							 [0.5,0.5],
+							 [0.5,0.5]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues": [100,132,100,132,100,100,100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 200,
+			"Sampling": 0
+		}
+	],
+	"Flicker-Hit-1":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues": [0,62,0,62,0,62,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues": [0,48,0,48,0,48,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction":{
+				"keyTimes": [0,0.125,0],
+				"keyValues": [0,73,0]
+			},
+			"Blur Length":{
+				"keyTimes": [0,0.125,0],
+				"keyValues": [0,43,0]
+			}
+		}
+	],
+	"Flicker-Hit-2":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":[0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues": [100,110,100,110,100,110,100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues": [0,62,0,56,0,62,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues": [0,48,0,47,0,48,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction":{
+				"keyTimes": [0,0.125,0],
+				"keyValues": [0,99,0]
+			},
+			"Blur Length":{
+				"keyTimes": [0,0.125,0],
+				"keyValues": [0,121,0]
+			}
+		}
+	],
+	"Flicker-Hit-3":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.5,0.5703],
+							 [0.5,0.4296],
+							 [0.5,0.56018],
+							 [0.5,0.4268],
+							 [0.5,0.5],
+							 [0.5,0.5]
+							]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.0416],
+				"keyValues": [100,115]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 200,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues": [0,68,0,68,0,68,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.0416,0.083,0.125,0.16,0.2083,0.25],
+				"keyValues": [0,22,0,22,0,22,0]
+			}
+		}
+	],
+	"Hard-Hit": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.25, 0.5],
+				"keyValues": [0, 43, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.25, 0.5],
+				"keyValues": [0, 30, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": {
+				"keyTimes": [0, 0.0416666666666667],
+				"keyValues": [0, 90]
+			},
+			"Blur Length": {
+				"keyTimes": [0, 0.0416666666666667,0.1666666666666667, 0.375],
+				"keyValues": [0, 19, 19,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": {
+				"keyTimes": [0,0.0833333333333333,0.1666666666666667,0.25,0.3333333333333333,0.4166666666666667],
+				"keyValues":[[0.5,0.5],
+							 [0.5997916666666667,0.5],
+							 [0.5997916666666667,0.3675925925925926],
+							 [0.6877604166666667,0.3675925925925926],
+							 [0.6877604166666667,0.1138888888888889],
+							 [0.5,0.5]]
+			},
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": {
+				"keyTimes": [0,0.0833333333333333,0.3333333333333333],
+				"keyValues":[[1.317239583333333,0.9157407407407407],
+							 [1.562760416666667,0.9157407407407407],
+							 [1.916458333333333,0.9157407407407407]]
+			},
+			"Reflection Angle": 2.0
+		},
+		{
+			"matchName": "AE.ADBE Gaussian Blur 2",
+			"Blurriness":{
+				"keyTimes": [0, 0.2916666666666667, 0.5],
+				"keyValues": [0, 33, 1]
+			},
+			"Blur Dimensions": 0,
+			"Repeat Edge Pixels": true
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.0416666666666667, 0.0833333333333333, 0.125, 0.2083333333333333,0.3333333333333333,0.4166666666666667,0.5],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.5, 0.4592592592592593],
+					[0.5, 0.4833333333333333],
+					[0.5, 0.4574074074074074],
+					[0.5, 0.475],
+					[0.5, 0.4555555555555556],
+					[0.5, 0.4675925925925926],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.125, 0.3333333333333333, 0.4583333333333333, 0.5],
+				"keyValues": [100, 201, 235, 125, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0,0.0416666666666667, 0.0833333333333333, 0.1666666666666667, 0.25,0.3333333333333333,0.4166666666666667,0.5],
+				"keyValues": [0, 4, -4, 9,-9,15,-15,0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Hard-Hit-With-Flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.7556770833333333,0.2024074074074074],
+			"Reflection Angle": 271
+		},
+		{
+			"matchName": "AE.ADBE Gaussian Blur 2",
+			"Blurriness":{
+				"keyTimes": [0, 0.0833333333333333, 0.1666666666666667,0.2083333333333333,0.25],
+				"keyValues": [0, 35, 0,30,0]
+			},
+			"Blur Dimensions": 0,
+			"Repeat Edge Pixels": true
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.125, 0.25],
+				"keyValues": [0, 58, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.125, 0.25],
+				"keyValues": [0, 47, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.0416666666666667, 0.0833333333333333, 0.125, 0.2083333333333333,0.25,0.3333333333333333],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.538125, 0.5935185185185185],
+					[0.4019270833333333, 0.6537037037037037],
+					[0.3284895833333333, 0.6787037037037037],
+					[0.45515625, 0.4009259259259259],
+					[0.54875, 0.4009259259259259],					
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25, 0.3333333333333333],
+				"keyValues": [153, 153, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0,0.0416666666666667, 0.0833333333333333, 0.125,0.1666666666666667, 0.25],
+				"keyValues": [0, 4, -4, -10,9,0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"hit-wipe-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.12512490000245, 0.21896857500315],
+				"keyValues": [0, 89, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0.03128122499766, 0.12512490000245, 0.21896857500315],
+				"keyValues": [0, 71, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.28, 0.5],
+					[0.63, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [100, 150, 177, 147.6, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0.0625624499994, 0.12512490000245, 0.1876873500014, 0.21896857500315],
+				"keyValues": [0, 12, 6.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"hit-wipe": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.28, 0.5],
+					[0.63, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [100, 150, 177, 147.6, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [0, 12, 6.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"horizontal-hit-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, 100, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, 71.6, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.05004999999983, 0.10010000000011, 0.16683333333322, 0.25025000000005],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.42, 0.5],
+					[0.59, 0.5],
+					[0.45, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": {
+				"keyTimes": [0, 0.05004999999983, 0.10010000000011, 0.25025000000005],
+				"keyValues": [0, 25, -5, 0]
+			},
+			"Skew Axis": 90,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.26],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.5],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"horizontal-hit-with-flicker": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [
+					0, 0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [0, 80.7, 0, 100, 0, 80.7, 0]
+			},
+			"Contrast": {
+				"keyTimes": [
+					0, 0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [0, 53.7, 18.9, 71.6, 20.5, 53.7, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.05004999999983, 0.10010000000011, 0.16683333333322, 0.25025000000005],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.42, 0.5],
+					[0.59, 0.5],
+					[0.45, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": {
+				"keyTimes": [0, 0.05004999999983, 0.10010000000011, 0.25025000000005],
+				"keyValues": [0, 25, -5, 0]
+			},
+			"Skew Axis": 90,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.26],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.5],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"horizontal-hit": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.05000003995792, 0.1000000799163, 0.16666679986292, 0.25000019979461],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.42, 0.5],
+					[0.59, 0.5],
+					[0.45, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": {
+				"keyTimes": [0, 0.05000003995792, 0.1000000799163, 0.25000019979461],
+				"keyValues": [0, 25, -5, 0]
+			},
+			"Skew Axis": 90,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.26],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.5],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"instant-hit-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [-0.15729981428331, -0.12512490000245, 0, 0.25],
+				"keyValues": [0, 0, 95.4, 0]
+			},
+			"Contrast": {
+				"keyTimes": [-0.15729981428331, -0.12512490000245, 0, 0.25],
+				"keyValues": [0, 0, 66.4, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": [0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [-0.12512490000245, 0, 0.25],
+				"keyValues": [200, 112, 200]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [-0.12512490000245, -0.06256245000304, 0.125, 0.25],
+				"keyValues": [0, 17, -17, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [-0.12512490000245, 0, 0.25],
+				"keyValues": [0, 13, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"intense-hit-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0.03128122499766, 0.12512490000245, 0.21896857500315],
+				"keyValues": [0, 93, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0.03128122499766, 0.12512490000245, 0.21896857500315],
+				"keyValues": [0, 70, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.03128122499766, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.21896857500315,
+					0.25024980000489
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.4, 0.5],
+					[0.46, 0.5],
+					[0.41, 0.37],
+					[0.49, 0.56],
+					[0.45, 0.6],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.03128122499766, 0.1876873500014, 0.21896857500315, 0.25024980000489],
+				"keyValues": [100, 130.7, 130.7, 137.8, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0, 0.03128122499766, 0.0625624499994],
+				"keyValues": [0, 4.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"intense-hit-with-flash-v2": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 360
+			},
+			"behind": true,
+			"subcategory": "hits",
+			"speed": "none"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.125],
+				"keyValues": [95.4, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.125],
+				"keyValues": [66.4, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": [0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale": {
+				"keyTimes": [0, 0.125],
+				"keyValues": [112, 200]
+			},
+			" ": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0, 0.0625, 0.125],
+				"keyValues": [0, -17, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 360,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0, 0.125],
+				"keyValues": [13, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.2537969648838],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.74759292602539],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25130218267441, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.74703222513199, 0.5174999833107],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"intense-hit-with-flicker": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [
+					0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [93, 0, 93, 0, 93, 0]
+			},
+			"Contrast": {
+				"keyTimes": [
+					0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [70, 0, 70, 0, 70, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.03128122499766, 0.0625624499994, 0.12512490000245, 0.16683320000311, 0.19811442500486,
+					0.25024980000489
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.4, 0.5],
+					[0.46, 0.5],
+					[0.41, 0.37],
+					[0.49, 0.56],
+					[0.45, 0.6],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.03128122499766, 0.16683320000311, 0.19811442500486, 0.25024980000489],
+				"keyValues": [100, 130.7, 130.7, 137.8, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0, 0.03128122499766, 0.0625624499994],
+				"keyValues": [0, 4.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"intense-hit": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.03128122499766, 0.0625624499994, 0.12512490000245, 0.16683320000311, 0.19811442500486,
+					0.25024980000489
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.4, 0.5],
+					[0.46, 0.5],
+					[0.41, 0.37],
+					[0.49, 0.56],
+					[0.45, 0.6],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.03128122499766, 0.16683320000311, 0.19811442500486, 0.25024980000489],
+				"keyValues": [100, 130.7, 130.7, 137.8, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0, 0.03128122499766, 0.0625624499994],
+				"keyValues": [0, 4.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"intense-horizontal-hit-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, 100, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, 60, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.02555539491232, 0.05004999999983, 0.07184441210393, 0.10010000000011, 0.13742051980171,
+					0.18612042330778, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.67, 0.5],
+					[0.39, 0.5],
+					[0.62, 0.5],
+					[0.33, 0.5],
+					[0.58, 0.5],
+					[0.45, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": {
+				"keyTimes": [0, 0.03278805384707, 0.05004999999983, 0.10010000000011, 0.25025000000005],
+				"keyValues": [0, 25, 25, 10, 0]
+			},
+			"Skew Axis": 90,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.5],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"intense-horizontal-hit-with-flicker": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [
+					0, 0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [0, 55, 0, 100, 0, 100, 0]
+			},
+			"Contrast": {
+				"keyTimes": [
+					0, 0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [0, 39, 0, 60, 0, 60, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.02555539491232, 0.05004999999983, 0.07184441210393, 0.10010000000011, 0.13742051980171,
+					0.18612042330778, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.67, 0.5],
+					[0.39, 0.5],
+					[0.62, 0.5],
+					[0.33, 0.5],
+					[0.58, 0.5],
+					[0.45, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": {
+				"keyTimes": [0, 0.03278805384707, 0.05004999999983, 0.10010000000011, 0.25025000000005],
+				"keyValues": [0, 25, 25, 10, 0]
+			},
+			"Skew Axis": 90,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.5],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"intense-horizontal-hit": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.02555539491232, 0.05004999999983, 0.07184441210393, 0.10010000000011, 0.13742051980171,
+					0.18612042330778, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.67, 0.5],
+					[0.39, 0.5],
+					[0.62, 0.5],
+					[0.33, 0.5],
+					[0.58, 0.5],
+					[0.45, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": {
+				"keyTimes": [0, 0.03278805384707, 0.05004999999983, 0.10010000000011, 0.25025000000005],
+				"keyValues": [0, 25, 25, 10, 0]
+			},
+			"Skew Axis": 90,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.5],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"quick-hit-v2": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.08341666665865, 0.14299988571202, 0.20020000000022],
+				"keyValues": [0, 32, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666665865,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332549,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.52, 0.34],
+					[0.38, 0.42],
+					[0.51, 0.38],
+					[0.55, 0.39],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666665865,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332549,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [0, 0.3, 4.8, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"quick-hit-with-flash-v2": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.08341666665865, 0.14299988571202, 0.20020000000022],
+				"keyValues": [0, 32, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [-0.0428998857119, 0.05004999999983, 0.14061678095095],
+				"keyValues": [0, 95.4, 0]
+			},
+			"Contrast": {
+				"keyTimes": [-0.0428998857119, 0.05004999999983, 0.14061678095095],
+				"keyValues": [0, 66.4, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666665865,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332549,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.52, 0.34],
+					[0.38, 0.42],
+					[0.51, 0.38],
+					[0.55, 0.39],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666665865,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332549,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [0, 0.3, 4.8, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition’s Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"quick-hit-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.08341666666274, 0.14299988571565, 0.20020000000022],
+				"keyValues": [0, 65.9, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0.04170830000066, 0.12512490000245, 0.20854150000378],
+				"keyValues": [0, 100, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0.04170830000066, 0.12512490000245, 0.20854150000378],
+				"keyValues": [0, 65, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666666274,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332958,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.52, 0.42],
+					[0.44, 0.42],
+					[0.51, 0.38],
+					[0.55, 0.45],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666666274,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332958,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [0, 0.3, 0.4, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition’s Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"quick-hit-with-flicker-v2": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.08341666665865, 0.14299988571202, 0.20020000000022],
+				"keyValues": [0, 32, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [
+					-0.0428998857119, 0, 0.05004999999983, 0.14061678095095, 0.16683320000311, 0.20854150000378
+				],
+				"keyValues": [0, 0, 95.4, 0, 95.4, 0]
+			},
+			"Contrast": {
+				"keyTimes": [
+					-0.0428998857119, 0, 0.05004999999983, 0.14061678095095, 0.16683320000311, 0.20854150000378
+				],
+				"keyValues": [0, 0, 66.4, 0, 66.4, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666665865,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332549,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.52, 0.34],
+					[0.38, 0.42],
+					[0.51, 0.38],
+					[0.55, 0.39],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666665865,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332549,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [0, 0.3, 4.8, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition’s Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"quick-hit-with-flicker": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.0833333999276, 0.14285714285325, 0.20000015983624],
+				"keyValues": [0, 65.9, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.04166666666652, 0.08333333333348, 0.125, 0.16666666666652, 0.20833333333348, 0.25],
+				"keyValues": [0, 82, 0, 100, 0, 82, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.04166666666652, 0.08333333333348, 0.125, 0.16666666666652, 0.20833333333348, 0.25],
+				"keyValues": [0, 65, 0, 65, 0, 65, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01666667998461, 0.03333335996967, 0.05000003995792, 0.06666671994299, 0.0833333999276,
+					0.1000000799163, 0.11666675990091, 0.13333343988961, 0.15000011987422, 0.16666679985929,
+					0.18333347984753, 0.20000015983624, 0.2166668398213, 0.23333351980591, 0.25000019979461
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.52, 0.42],
+					[0.44, 0.42],
+					[0.51, 0.38],
+					[0.55, 0.45],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01666667998461, 0.03333335996967, 0.05000003995792, 0.06666671994299, 0.0833333999276,
+					0.1000000799163, 0.11666675990091, 0.13333343988961, 0.15000011987422, 0.16666679985929,
+					0.18333347984753, 0.20000015983624, 0.2166668398213, 0.23333351980591, 0.25000019979461
+				],
+				"keyValues": [0, 0.3, 0.4, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition’s Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"quick-hit": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.08341666666274, 0.14299988571565, 0.20020000000022],
+				"keyValues": [0, 65.9, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666666274,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332958,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.52, 0.42],
+					[0.44, 0.42],
+					[0.51, 0.38],
+					[0.55, 0.45],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666666274,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332958,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [0, 0.3, 0.4, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"quick-wipe-with-flicker": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [
+					0, 0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [0, 70, 0, 89, 0, 70, 0]
+			},
+			"Contrast": {
+				"keyTimes": [
+					0, 0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [0, 50, 0, 71, 0, 50, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.28, 0.5],
+					[0.63, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [100, 150, 177, 147.6, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0.0625624499994, 0.12512490000245, 0.1876873500014, 0.21896857500315],
+				"keyValues": [0, 12, 6.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"quick-zoom-hit": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.05004995999843, 0.12512490000245, 0.17517486000088, 0.25024980000489],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.54, 0.53],
+					[0.56, 0.41],
+					[0.44, 0.44],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [100, 125, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "PR.ADBE Lens Distortion",
+			"Curvature": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, -58, 0]
+			},
+			"Vertical Decentering": 0,
+			"Horizontal Decentering": 0,
+			"Vertical Prism FX": 0,
+			"Horizontal Prism FX": 0,
+			"Fill Alpha": false,
+			"Fill Color": 18374966859414962000
+		}
+	],
+	"quick-zoom-hit-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, 96.7, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, 75.5, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.05004995999843, 0.12512490000245, 0.17517486000088, 0.25024980000489],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.54, 0.53],
+					[0.56, 0.41],
+					[0.44, 0.44],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [100, 125, 100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "PR.ADBE Lens Distortion",
+			"Curvature": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, -58, 0]
+			},
+			"Vertical Decentering": 0,
+			"Horizontal Decentering": 0,
+			"Vertical Prism FX": 0,
+			"Horizontal Prism FX": 0,
+			"Fill Alpha": false,
+			"Fill Color": 18374966859414962000
+		}
+	],
+	"soft-hit-v2": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.0833333999276, 0.14285714285325, 0.20000015983624],
+				"keyValues": [0, 32, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01666667998461, 0.03333335996967, 0.05000003995792, 0.06666671994299, 0.0833333999276,
+					0.1000000799163, 0.11666675990091, 0.13333343988961, 0.15000011987422, 0.16666679985929,
+					0.18333347984753, 0.20000015983624, 0.2166668398213, 0.23333351980591, 0.25000019979461
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.52, 0.42],
+					[0.44, 0.42],
+					[0.51, 0.38],
+					[0.55, 0.45],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01666667998461, 0.03333335996967, 0.05000003995792, 0.06666671994299, 0.0833333999276,
+					0.1000000799163, 0.11666675990091, 0.13333343988961, 0.15000011987422, 0.16666679985929,
+					0.18333347984753, 0.20000015983624, 0.2166668398213, 0.23333351980591, 0.25000019979461
+				],
+				"keyValues": [0, 0.3, 0.4, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"soft-hit-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.08341666665865, 0.14299988571202, 0.20020000000022],
+				"keyValues": [0, 32, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [-0.0428998857119, 0.05004999999983, 0.14061678095095],
+				"keyValues": [0, 95.4, 0]
+			},
+			"Contrast": {
+				"keyTimes": [-0.0428998857119, 0.05004999999983, 0.14061678095095],
+				"keyValues": [0, 66.4, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666665865,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332549,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.38],
+					[0.55, 0.39],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01668333333328, 0.03336666666655, 0.05004999999983, 0.06673333333356, 0.08341666665865,
+					0.10010000000011, 0.11678333333339, 0.13346666666666, 0.15014999999994, 0.16683333332549,
+					0.18351666666649, 0.20020000000022, 0.2168833333335, 0.23356666666677, 0.25025000000005
+				],
+				"keyValues": [0, 0, 0, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition’s Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"soft-hit-with-flicker": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.0833333999235, 0.14285714284915, 0.20000015983624],
+				"keyValues": [0, 32, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [
+					-0.04285706293285, 0, 0.04166666666652, 0.08333333333348, 0.125, 0.16666666666652, 0.20833333333348,
+					0.25
+				],
+				"keyValues": [0, 0, 80, 0, 95.4, 0, 82.2, 0]
+			},
+			"Contrast": {
+				"keyTimes": [
+					-0.04285706293285, 0, 0.04166666666652, 0.08333333333348, 0.125, 0.16666666666652, 0.20833333333348,
+					0.25
+				],
+				"keyValues": [0, 0, 56.2, 0, 66.4, 0, 54.3, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01666667998461, 0.03333335996967, 0.05000003995792, 0.06666671994299, 0.0833333999235,
+					0.1000000799163, 0.11666675990091, 0.13333343988961, 0.15000011987422, 0.16666679985519,
+					0.18333347984753, 0.20000015983624, 0.2166668398213, 0.23333351980591, 0.25000019979461
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.38],
+					[0.55, 0.39],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01666667998461, 0.03333335996967, 0.05000003995792, 0.06666671994299, 0.0833333999235,
+					0.1000000799163, 0.11666675990091, 0.13333343988961, 0.15000011987422, 0.16666679985519,
+					0.18333347984753, 0.20000015983624, 0.2166668398213, 0.23333351980591, 0.25000019979461
+				],
+				"keyValues": [0, 0, 0, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition’s Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"soft-hit": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0.0833333999235, 0.14285714284915, 0.20000015983624],
+				"keyValues": [0, 32, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [
+					0, 0.01666667998461, 0.03333335996967, 0.05000003995792, 0.06666671994299, 0.0833333999235,
+					0.1000000799163, 0.11666675990091, 0.13333343988961, 0.15000011987422, 0.16666679985519,
+					0.18333347984753, 0.20000015983624, 0.2166668398213, 0.23333351980591, 0.25000019979461
+				],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.38],
+					[0.55, 0.39],
+					[0.51, 0.52],
+					[0.49, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.51, 0.5],
+					[0.5, 0.51],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale Height": 200,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [
+					0, 0.01666667998461, 0.03333335996967, 0.05000003995792, 0.06666671994299, 0.0833333999235,
+					0.1000000799163, 0.11666675990091, 0.13333343988961, 0.15000011987422, 0.16666679985519,
+					0.18333347984753, 0.20000015983624, 0.2166668398213, 0.23333351980591, 0.25000019979461
+				],
+				"keyValues": [0, 0, 0, 0.1, -0.1, -0.2, -0.1, -0.1, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"spin-hit-with-flash": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, 81, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.12512490000245, 0.25024980000489],
+				"keyValues": [0, 68, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": [0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [200, 236.1, 381.5, 230.7, 200]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [0, -9.3, 7.5, 10.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"spin-hit-with-flicker": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [
+					0, 0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [0, 60, 0, 81, 0, 60, 0]
+			},
+			"Contrast": {
+				"keyTimes": [
+					0, 0.04170830000066, 0.08341660000178, 0.12512490000245, 0.16683320000311, 0.20854150000378,
+					0.25024980000489
+				],
+				"keyValues": [0, 50, 0, 68, 0, 50, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": [0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [200, 236.1, 381.5, 230.7, 200]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0, 0.0625624499994, 0.12512490000245, 0.1876873500014, 0.25024980000489],
+				"keyValues": [0, -9.3, 7.5, 10.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	],
+	"spin-hit": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": [0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.06249999999591, 0.125, 0.18749999999591, 0.25],
+				"keyValues": [200, 236.1, 381.5, 230.7, 200]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": {
+				"keyTimes": [0, 0.06249999999591, 0.125, 0.18749999999591, 0.25],
+				"keyValues": [0, -9.3, 7.5, 10.8, 0]
+			},
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0.5, 0.5],
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Alpha Adjust",
+			"Opacity": 100,
+			"Ignore Alpha": true,
+			"Invert Alpha": false,
+			"Mask Only": false
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.25],
+			"Reflection Angle": -90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [1, 0.75],
+			"Reflection Angle": 90
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.25, 0.5],
+			"Reflection Angle": 180
+		},
+		{
+			"matchName": "AE.ADBE Mirror",
+			"Reflection Center": [0.75, 0.52],
+			"Reflection Angle": 0
+		},
+		{
+			"matchName": "AE.ADBE Replicate",
+			"Count": 2
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": [0, 0],
+			"Blend With Original": 0
+		}
+	]
+}

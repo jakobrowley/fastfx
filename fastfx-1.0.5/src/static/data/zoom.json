@@ -1,0 +1,479 @@
+{
+	"Crash-DeZoom-(Down)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0,0.25],
+				"keyValues":[[0.5,0.3898148148148148],
+							 [0.5,0.5]
+							]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.25],
+				"keyValues": [169,100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-DeZoom-(left)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0,0.25],
+				"keyValues":[[0.6882291666666667,0.5],
+							 [0.5,0.5]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.25],
+				"keyValues":[139,100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-DeZoom-(Right)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0,0.25],
+				"keyValues":[[0.3127604166666667,0.5],
+							 [0.5,0.5]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.25],
+				"keyValues":[139,100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-DeZoom-(Up)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0,0.25],
+				"keyValues":[[0.5,0.6944444444444444],
+							 [0.5,0.5]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.25],
+				"keyValues":[139,100]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-Zoom-(Down-1)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0, 0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.5,0.3898148148148148]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25],
+				"keyValues":[100,126]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-Zoom-(Down-2)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.25],
+				"keyValues": [49,0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.25],
+				"keyValues": [25,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0, 0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.5,0.3898148148148148]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25],
+				"keyValues":[100,126]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-Zoom-(Left-1)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0, 0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.6950520833333333,0.5]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25],
+				"keyValues":[100,139]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-Zoom-(Left-2)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0, 0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.6950520833333333,0.5]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25],
+				"keyValues":[100,139]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.125,0.25],
+				"keyValues": [0,54,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.125, 0.25],
+				"keyValues": [0,44,0]
+			}
+		}
+	],
+	"Crash-Zoom-(Right-1)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0, 0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.3127604166666667,0.5]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25],
+				"keyValues":[100,139]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-Zoom-(Right-2)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0, 0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.3127604166666667,0.5]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25],
+				"keyValues":[100,139]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.125,0.25],
+				"keyValues": [0,54,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.125, 0.25],
+				"keyValues": [0,44,0]
+			}
+		}
+	],
+	"Crash-Zoom-(Up-1)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0, 0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.5,0.6407407407407407]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25],
+				"keyValues":[100,139]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	],
+	"Crash-Zoom-(Up-2)":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "zoom",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.125,0.25],
+				"keyValues": [0,54,0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.125,0.25],
+				"keyValues": [0,44,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":{
+				"keyTimes": [0, 0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.5,0.6407407407407407]]
+			},
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0, 0.25],
+				"keyValues":[100,139]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 180,
+			"Sampling": 0
+		}
+	]
+}

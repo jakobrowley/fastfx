@@ -1,0 +1,58 @@
+{
+	"crt-v1": [
+		{
+			"sequenceId": "5fa9c8ba-b60b-4641-afa7-b8a8989f0b4a",
+			"subcategory": "crt",
+			"overlays": true
+		}
+	],
+	"crt-v2": [
+		{
+			"sequenceId": "8bb184a6-71b7-4e10-9394-ef51898da71c",
+			"subcategory": "crt",
+			"overlays": true
+		}
+	],
+	"crt-v3": [
+		{
+			"sequenceId": "e762ccea-7e96-4dd0-87b3-60eb343da87b",
+			"subcategory": "crt",
+			"overlays": true
+		}
+	],
+	"crt-v4": [
+		{
+			"sequenceId": "c737fdb5-e8ce-4d21-9028-2e31715d215e",
+			"subcategory": "crt",
+			"overlays": true
+		}
+	],
+	"crt-v5": [
+		{
+			"sequenceId": "564a8398-99c3-43a4-9d4f-fe194476db66",
+			"subcategory": "crt",
+			"overlays": true
+		}
+	],
+	"crt-v6": [
+		{
+			"sequenceId": "8f0fe6a2-d8ce-498b-bf11-5331ac547edd",
+			"subcategory": "crt",
+			"overlays": true
+		}
+	],
+	"crt-v7": [
+		{
+			"sequenceId": "7adaead8-558a-4fff-9fb4-4f3718da0120",
+			"subcategory": "crt",
+			"overlays": true
+		}
+	],
+	"crt-v8": [
+		{
+			"sequenceId": "f661d860-4389-4247-ab7a-70f2ea2da95d",
+			"subcategory": "crt",
+			"overlays": true
+		}
+	]
+}

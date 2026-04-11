@@ -1,0 +1,30 @@
+{
+	"thermal-v1": [
+		{
+			"sequenceId": "231617fd-34f7-4827-bc35-32a1b06cad28",
+			"subcategory": "thermal",
+			"overlays": false
+		}
+	],
+	"thermal-v2": [
+		{
+			"sequenceId": "4a6ea550-7325-42ab-a62f-577c39caa160",
+			"subcategory": "thermal",
+			"overlays": false
+		}
+	],
+	"thermal-v3": [
+		{
+			"sequenceId": "3f1e154f-297a-41cd-864d-902cfab8aaf5",
+			"subcategory": "thermal",
+			"overlays": false
+		}
+	],
+	"thermal-v4": [
+		{
+			"sequenceId": "a02d6a14-6c82-40b3-94a4-4b9682fb6003",
+			"subcategory": "thermal",
+			"overlays": false
+		}
+	]
+}

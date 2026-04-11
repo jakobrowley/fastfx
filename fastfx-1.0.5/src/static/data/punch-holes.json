@@ -1,0 +1,56 @@
+{
+	"punch-holes-01": [
+		{
+			"sequenceId": "a302404c-0495-4cf0-9869-ffed7d7bb109",
+			"subcategory": "punch-holes",
+			"groupId":"0",
+			"overlays": false,
+			"blend":"difference"
+		}
+	],
+	"punch-holes-02": [
+		{
+			"sequenceId": "e7dcf914-305d-4fca-8e7c-4aed705e3d55",
+			"subcategory": "punch-holes",
+			"groupId":"0",
+			"overlays": false,
+			"blend":"difference"
+		}
+	],
+	"punch-holes-03": [
+		{
+			"sequenceId": "07dddf7a-78f1-4f50-944f-4f74c3149642",
+			"subcategory": "punch-holes",
+			"groupId":"0",
+			"overlays": false,
+			"blend":"difference"
+		}
+	],
+	"punch-holes-04": [
+		{
+			"sequenceId": "786b86b1-52ee-43d6-987f-483a0190fc8d",
+			"subcategory": "punch-holes",
+			"groupId":"0",
+			"overlays": false,
+			"blend":"divide"
+		}
+	],
+	"punch-holes-05": [
+		{
+			"sequenceId": "6a60554e-5057-4540-abe8-1b6c845d3396",
+			"subcategory": "punch-holes",
+			"groupId":"0",
+			"overlays": false,
+			"blend":"divide"
+		}
+	],
+	"punch-holes-06": [
+		{
+			"sequenceId": "8a4d2050-9eb8-4196-9b85-213d16594ac4",
+			"subcategory": "punch-holes",
+			"groupId":"0",
+			"overlays": false,
+			"blend":"normal"
+		}
+	]
+}

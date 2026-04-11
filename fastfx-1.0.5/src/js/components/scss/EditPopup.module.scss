@@ -1,0 +1,49 @@
+.content {
+	background-color: $base;
+	border-radius: 8px;
+	border: 1px solid $el-border-dark;
+	box-sizing: border-box;
+}
+
+.thumb {
+	width: 40px;
+	height: 25px;
+	background-color: $el-fill;
+	border: 1px solid $el-border-dark;
+	box-sizing: border-box;
+	border-radius: 3px;
+
+	&[data-dragging] {
+		box-shadow: none;
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+.track {
+	height: 4px;
+	width: 95%;
+
+	&::before {
+		background-color: $el-border-dark;
+	}
+}
+
+.bar {
+	background: linear-gradient(
+			to left,
+			$accent-light 0%,
+			hsla(0, 0%, 0%, 0.4) 100%
+		),
+		repeating-linear-gradient(
+			to right,
+			$accent-light,
+			$accent-light 1px,
+			$accent-dark 1px,
+			$accent-dark 2px
+		);
+	background-blend-mode: overlay;
+	box-shadow: 0px 0px 10px -8px $accent-light,
+		0px 0px 20px -8px $accent-light,
+		0px 0px 30px -8px $accent-light,
+		0px 0px 40px -8px $accent-light;
+}

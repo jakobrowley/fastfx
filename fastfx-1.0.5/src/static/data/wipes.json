@@ -1,0 +1,424 @@
+{
+	"crazy-wipe-diagonal":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": {
+				"keyTimes": [0,0.2083],
+				"keyValues": [
+					[0.5, 0.5],
+					[-0.00625,0.5]
+				]
+			},
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":[0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.0416],
+				"keyValues": [100,300]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": true,
+			"Shutter Angle": 0,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.125,0.2083],
+				"keyValues": [0,89,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.125,0.2083],
+				"keyValues": [0,50,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction":122,
+			"Blur Length":{
+				"keyTimes": [0,0.125,0.25],
+				"keyValues": [0,49,0]
+			}
+		}
+	],
+	"crazy-wipe-left":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": {
+				"keyTimes": [0,0.2083],
+				"keyValues": [
+					[0.5, 0.5],
+					[-0.00625,0.5]
+				]
+			},
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":[0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.0416],
+				"keyValues": [100,300]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": true,
+			"Shutter Angle": 0,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.125,0.2083],
+				"keyValues": [0,99,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.125,0.2083],
+				"keyValues": [0,32,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction":90,
+			"Blur Length":{
+				"keyTimes": [0,0.125,0.25],
+				"keyValues": [0,59,0]
+			}
+		}
+	],
+	"crazy-wipe-up":[
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 180
+			},
+			"behind": false,
+			"subcategory": "hits",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": {
+				"keyTimes": [0,0.2083],
+				"keyValues": [
+					[0.5, 0.5],
+					[-0.00625,0.5]
+				]
+			},
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position":[0.5, 0.5],
+			"Uniform Scale": true,
+			"Scale Height": {
+				"keyTimes": [0,0.0416],
+				"keyValues": [100,300]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": true,
+			"Shutter Angle": 0,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0,0.125,0.2083],
+				"keyValues": [0,99,0]
+			},
+			"Contrast": {
+				"keyTimes": [0,0.125,0.2083],
+				"keyValues": [0,32,0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction":0,
+			"Blur Length":{
+				"keyTimes": [0,0.125,0.25],
+				"keyValues": [0,59,0]
+			}
+		}
+	],
+	"crazy-wipe": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 0
+			},
+			"behind": false,
+			"subcategory": "wipes",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0.03125, 0.125, 0.21875],
+				"keyValues": [0, 100, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0.03125, 0.125, 0.21875],
+				"keyValues": [0, 57, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.09375, 0.21875],
+				"keyValues": [
+					[-0.50364583730698, -0.32314816117287],
+					[0.50052082538605, 0.06574074178934],
+					[1.50677084922791, 1.26851856708527]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale": 304,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 0,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 181.4,
+			"Blur Length": {
+				"keyTimes": [0, 0.125, 0.25],
+				"keyValues": [17, 51.9, 18]
+			}
+		}
+	],
+	"Smooth-Wipe-Up": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 0
+			},
+			"behind": false,
+			"subcategory": "wipes",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 0,
+			"Blur Length": {
+				"keyTimes": [0, 0.125, 0.25],
+				"keyValues": [0, 130, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Offset",
+			"Shift Center To": {
+				"keyTimes": [0,0.25],
+				"keyValues":[[0.5,0.5],
+							 [0.5,1.501851851851852]]
+			},
+			"Blend With Original": 0
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0, 0.0833333333333333, 0.1666666666666667],
+				"keyValues": [0, 58, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0, 0.0833333333333333, 0.1666666666666667],
+				"keyValues": [0, 47, 0]
+			}
+		}
+	],
+	"fast-wipe": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 0
+			},
+			"behind": false,
+			"subcategory": "wipes",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Brightness & Contrast 2",
+			"Brightness": {
+				"keyTimes": [0.03125, 0.125, 0.21875],
+				"keyValues": [0, 64, 0]
+			},
+			"Contrast": {
+				"keyTimes": [0.03125, 0.125, 0.21875],
+				"keyValues": [0, 57, 0]
+			}
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.09375, 0.21875],
+				"keyValues": [
+					[-0.50364583730698, -0.32314816117287],
+					[0.50052082538605, 0.06574074178934],
+					[1.50677084922791, 1.26851856708527]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale": 304,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 0,
+			"Sampling": 0
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": 86.4,
+			"Blur Length": {
+				"keyTimes": [0, 0.125, 0.25],
+				"keyValues": [17, 51.9, 18]
+			}
+		}
+	],
+	"intense-shutter-wipe": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 200
+			},
+			"behind": false,
+			"subcategory": "wipes",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.04166666666652, 0.08333333333348, 0.125, 0.16666666666652, 0.20833333333348, 0.25],
+				"keyValues": [
+					[0.5, 0.5],
+					[0.5, 1.99166667461395],
+					[0.5, 0.5],
+					[0.5, -0.98981481790543],
+					[0.5, 0.5],
+					[0.5, 1.99166667461395],
+					[0.5, 0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale": {
+				"keyTimes": [0, 0.04166666666652, 0.08333333333348, 0.125, 0.16666666666652, 0.20833333333348, 0.25],
+				"keyValues": [200, 400, 200, 400, 200, 400, 200]
+			},
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 200,
+			"Sampling": 0
+		}
+	],
+	"shutter-wipe": [
+		{
+			"custom": false,
+			"sliders": {
+				"intensity": 1,
+				"d. blur": 5,
+				"flash": 0,
+				"m. blur": 0
+			},
+			"behind": false,
+			"subcategory": "wipes",
+			"speed": "medium"
+		},
+		{
+			"matchName": "AE.ADBE Motion Blur",
+			"Direction": -54,
+			"Blur Length": 137
+		},
+		{
+			"matchName": "AE.ADBE Geometry2",
+			"Anchor Point": [0.5, 0.5],
+			"Position": {
+				"keyTimes": [0, 0.125, 0.25],
+				"keyValues": [
+					[1.5, 1.5],
+					[0.45, 0.6],
+					[-0.5, -0.5]
+				]
+			},
+			"Uniform Scale": true,
+			"Scale": 300,
+			"Scale Width": 100,
+			"Skew": 0,
+			"Skew Axis": 0,
+			"Rotation": 0,
+			"Opacity": 100,
+			"Use Composition's Shutter Angle": false,
+			"Shutter Angle": 0,
+			"Sampling": 0
+		}
+	]
+}

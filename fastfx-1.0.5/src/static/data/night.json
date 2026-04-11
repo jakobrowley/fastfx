@@ -1,0 +1,44 @@
+{
+	"night-vision-v1": [
+		{
+			"sequenceId": "6f82123d-d8b3-469d-9e71-c2d009c6f246",
+			"subcategory": "night",
+			"overlays": false
+		}
+	],
+	"night-vision-v2": [
+		{
+			"sequenceId": "c00a7073-3bfc-480d-9bc9-faf9eba706a0",
+			"subcategory": "night",
+			"overlays": false
+		}
+	],
+	"night-vision-v3": [
+		{
+			"sequenceId": "fb5dcb69-68a7-4dd4-9860-e8dbde5dc51d",
+			"subcategory": "night",
+			"overlays": false
+		}
+	],
+	"night-vision-v4": [
+		{
+			"sequenceId": "cff1332e-4c50-4b35-9405-51a3a5951086",
+			"subcategory": "night",
+			"overlays": false
+		}
+	],
+	"night-vision-v5": [
+		{
+			"sequenceId": "8e20d047-523b-43b8-98fc-fe1774ebbbaf",
+			"subcategory": "night",
+			"overlays": false
+		}
+	],
+	"night-vision-v6": [
+		{
+			"sequenceId": "a74a5f12-86a9-41cc-b6c2-1815542add14",
+			"subcategory": "night",
+			"overlays": false
+		}
+	]
+}

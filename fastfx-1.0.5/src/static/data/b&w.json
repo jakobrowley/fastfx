@@ -1,0 +1,44 @@
+{
+	"grainy-black-&-white-v1": [
+		{
+			"sequenceId": "6a93c3a5-8b2e-4f0b-b996-0838b705fb0e",
+			"subcategory": "b&w",
+			"overlays": false
+		}
+	],
+	"grainy-black-&-white-v2": [
+		{
+			"sequenceId": "5e88d17f-43f9-4e2a-8316-b4a9b3020c33",
+			"subcategory": "b&w",
+			"overlays": false
+		}
+	],
+	"grainy-black-&-white-v3": [
+		{
+			"sequenceId": "488ab7a8-1083-4943-bba0-58a7598805ec",
+			"subcategory": "b&w",
+			"overlays": false
+		}
+	],
+	"grainy-black-&-white-v4": [
+		{
+			"sequenceId": "73d1354b-0d09-487a-9bff-564252309730",
+			"subcategory": "b&w",
+			"overlays": false
+		}
+	],
+	"grainy-black-&-white-v5": [
+		{
+			"sequenceId": "15992d49-3db8-48f0-8385-a38efea5cba2",
+			"subcategory": "b&w",
+			"overlays": false
+		}
+	],
+	"grainy-black-&-white-v6": [
+		{
+			"sequenceId": "9c82a946-7357-435e-878d-57991be2aa20",
+			"subcategory": "b&w",
+			"overlays": false
+		}
+	]
+}
