@@ -64,13 +64,23 @@ export function initSentry(): void {
       },
     },
 
-    // Filter out noise before sending to Sentry.
+    // Tag (don't drop) events without stack traces.
+    //
+    // IMPORTANT: the intuitive "drop stackless events as noise" pattern is
+    // WRONG for CEP plugins. Many of the errors we most want to capture —
+    // ExtendScript errors bridged via csInterface.evalScript() callbacks,
+    // string-based errors from bolt.ts, manual captureException() calls
+    // with a message — don't carry a JavaScript stacktrace. Dropping them
+    // would silently lose the most important signal.
+    //
+    // Instead, tag them with no_stacktrace so they can be filtered in the
+    // Sentry UI if they turn out to be noisy in practice. Caught by Sentry
+    // Seer during PR #1 review on the sibling Terminal plugin.
     beforeSend(event) {
-      // Drop events with no meaningful stack trace (usually ad blockers / extensions).
       if (
         event.exception?.values?.every((v) => !v.stacktrace || v.stacktrace.frames?.length === 0)
       ) {
-        return null;
+        event.tags = { ...(event.tags || {}), no_stacktrace: 'true' };
       }
       return event;
     },
