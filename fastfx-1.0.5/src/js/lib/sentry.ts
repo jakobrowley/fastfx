@@ -83,11 +83,24 @@ export function initSentry(): void {
  *
  * We hash the license key instead of sending it raw so we never transmit
  * secrets — the hash is still stable per-customer so we can correlate errors.
+ *
+ * KNOWN ISSUE (detected by Sentry Seer during PR review):
+ * useVerifyOnline.ts currently hardcodes the customer email to
+ * "test@gmail.com" on lines 83 and 85. Until that pre-existing bug is fixed
+ * in a separate PR, we defensively detect the known bad value and skip the
+ * email field — the license hash still provides a stable per-customer ID so
+ * error correlation works even without the real email. Once the upstream
+ * bug is fixed, real emails will flow through here automatically.
  */
+const KNOWN_PLACEHOLDER_EMAILS = new Set(['test@gmail.com', 'test@test.com', '']);
+
 export function setSentryUser(email: string, licenseKey: string | undefined): void {
   if (!initialized) return;
+  const isPlaceholder = KNOWN_PLACEHOLDER_EMAILS.has((email || '').toLowerCase().trim());
   Sentry.setUser({
-    email,
+    // Skip email if it's the known hardcoded placeholder from useVerifyOnline.ts.
+    // The license hash below still gives us a stable per-customer ID.
+    email: isPlaceholder ? undefined : email,
     id: licenseKey ? hashLicenseKey(licenseKey) : undefined,
   });
 }
