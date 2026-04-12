@@ -45,7 +45,10 @@ const config: CEP_Config = {
 			'http://timestamp.apple.com/ts01', // MacOS Only
 		],
 		allowSkipTSA: false,
-		sourceMap: false,
+		// Source maps are enabled so the Sentry Vite plugin can upload them.
+		// The plugin deletes them after upload (see vite.config.ts) so they
+		// never ship in the final ZXP.
+		sourceMap: true,
 		jsxBin: 'off',
 	},
 	installModules: [],

@@ -2,7 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 import { cep, runAction } from 'vite-cep-plugin';
+import { sentryVitePlugin } from '@sentry/vite-plugin';
 import cepConfig from './cep.config';
+import pkg from './package.json';
 import path from 'path';
 import { extendscriptConfig } from './vite.es.config';
 
@@ -46,9 +48,26 @@ if (action) {
 	process.exit();
 }
 
+// Sentry source map upload is opt-in: only runs when SENTRY_AUTH_TOKEN is set.
+// Without the token, builds still work normally, they just won't upload sourcemaps.
+// To enable: add SENTRY_AUTH_TOKEN to .env.local (which is gitignored).
+// See ~/Plugins/_shared/sentry-secrets.md for the token value.
+const sentryPlugin = process.env.SENTRY_AUTH_TOKEN
+	? sentryVitePlugin({
+			org: 'tiny-tapes',
+			project: 'fastfx',
+			authToken: process.env.SENTRY_AUTH_TOKEN,
+			release: { name: `fastfx@${pkg.version}` },
+			sourcemaps: {
+				filesToDeleteAfterUpload: ['**/*.map'],
+			},
+			telemetry: false,
+	  })
+	: null;
+
 // https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [react(), cep(config)],
+	plugins: [react(), cep(config), ...(sentryPlugin ? [sentryPlugin] : [])],
 	css: {
 		preprocessorOptions: {
 			scss: {
