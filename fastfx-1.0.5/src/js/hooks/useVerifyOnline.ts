@@ -76,13 +76,30 @@ export const useVerifyOnline = async (
 						licenseFilePath = path.join(userDataDir, isMac ? `.${randomFilename}` : `${randomFilename}`);
 					}
 
+					// The customer email is intentionally empty here. Sentry Seer caught
+					// that the previous hardcoded "test@gmail.com" was corrupting the
+					// user context for error tracking (every customer's errors were
+					// being tagged with the same fake email).
+					//
+					// The LMFWC /licenses/activate/ response does NOT include the
+					// customer email — that lives on the parent WooCommerce order,
+					// which would require a second API call to /wp-json/wc/v3/orders/
+					// with the order ID from data.orderId. That's a followup change.
+					//
+					// Alternatively, we could add an email input to LicenseForm.tsx
+					// and collect it from the customer at activation time, then pass
+					// it through this function.
+					//
+					// Until that followup lands, the email field stays empty. The
+					// license hash (via sentry.ts hashLicenseKey) still provides a
+					// stable per-customer identifier for error correlation.
 					const offlineLicenseData = {
 						d: new Date().toISOString(),
 						l: licenseKey,
 						a: data.timesActivated,
-						e: "test@gmail.com",
+						e: "",
 					};
-					se("test@gmail.com");
+					se("");
 					const encryptedData = encrypt(offlineLicenseData);
 					fs.writeFileSync(licenseFilePath, encryptedData);
 
