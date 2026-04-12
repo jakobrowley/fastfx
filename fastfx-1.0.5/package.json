@@ -18,6 +18,8 @@
 		"@mantine/core": "^7.12.1",
 		"@mantine/form": "^7.13.2",
 		"@mantine/hooks": "^7.12.1",
+		"@sentry/react": "^10.48.0",
+		"@sentry/vite-plugin": "^5.2.0",
 		"axios": "^1.7.7",
 		"crypto-js": "^4.2.0",
 		"fswin": "^3.24.829",

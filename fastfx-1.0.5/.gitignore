@@ -3,3 +3,7 @@ node_modules/
 *.zxp
 dist/
 test/
+
+# Local environment overrides (secrets, auth tokens, etc.)
+.env.local
+.env.local.*
