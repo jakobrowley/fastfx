@@ -4,7 +4,7 @@ This repository hosts customer-facing **release downloads** for the FastFX Premi
 
 For the actual source code, see the private `fastfx-source` repository.
 
-## Latest release — FastFX 2.0.0
+## Latest release
 
 **Download:** https://github.com/jakobrowley/fastfx/releases/latest
 
